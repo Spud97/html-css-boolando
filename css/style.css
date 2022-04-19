@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #ff6900;
+}
+
+footer {
+  background-color: #1a1a1a;
+}
+
+a {
+  text-decoration: none;
+}
+
+#logo {
+  height: 20px;
+}
+
+#footer-span {
+  padding-right: 14px;
+}
+
+.ib {
+  /* TEMPORANEA */
+  border: 1px dashed rgb(21, 6, 228);
+}
+.container {
+  max-width: 1100px;
+  min-width: 300px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.header-container {
+  padding: 16px 0px;
+}
+
+.footer-container {
+  padding: 20px 0px;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.header-gender {
+  width: 20%;
+  display: flex;
+  gap: 10px;
+}
+
+.header-logo {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.header-icons {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.footer-info {
+  width: 50%;
+  display: flex;
+  gap: 8px;
+}
+
+.info-gap {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-icons {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.icons-gap {
+  display: flex;
+  gap: 7px;
+}
+
+.text-white {
+  color: white;
+}
+
+.little-font {
+  font-size: 0.7rem;
+}
+
+.small-font {
+  font-size: 0.8rem;
+}
+
+.medium-font {
+  font-size: 1.1rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.title {
+  font-size: 1rem;
+}
