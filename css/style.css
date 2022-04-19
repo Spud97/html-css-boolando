@@ -46,15 +46,23 @@ a {
   padding: 16px 0px;
 }
 
+.main-container {
+  padding: 40px 0px;
+  flex-wrap: wrap;
+  gap: 40px 16px;
+}
+
 .footer-container {
   padding: 20px 0px;
 }
 
 .row {
+  display: flex;
   flex-direction: row;
 }
 
 .column {
+  display: flex;
   flex-direction: column;
 }
 
@@ -75,6 +83,37 @@ a {
   display: flex;
   justify-content: flex-end;
   gap: 10px;
+}
+
+.image {
+  max-height: 500px;
+  height: 100%;
+}
+
+.item {
+  position: relative;
+  height: 100%;
+}
+
+.heart {
+  padding: 10px;
+  position: absolute;
+  right: 0px;
+  top: 7px;
+}
+
+.in-evidenza {
+  position: absolute;
+  left: 0px;
+  bottom: 40px;
+}
+
+.before-sconto {
+  text-decoration: line-through;
+}
+
+.sconti-gap {
+  gap: 6px;
 }
 
 .footer-info {
@@ -104,6 +143,10 @@ a {
   color: white;
 }
 
+.text-red {
+  color: red;
+}
+
 .little-font {
   font-size: 0.7rem;
 }
@@ -116,10 +159,26 @@ a {
   font-size: 1.1rem;
 }
 
+.title {
+  font-size: 1rem;
+}
+
 .bold {
   font-weight: bold;
 }
 
-.title {
-  font-size: 1rem;
+.bg-color-white {
+  background-color: white;
+}
+
+.bg-color-red {
+  background-color: #ff0000;
+}
+
+.bg-color-green {
+  background-color: #008000;
+}
+
+.card {
+  padding: 4px 8px;
 }
