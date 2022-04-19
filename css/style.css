@@ -11,6 +11,10 @@ body {
 
 header {
   background-color: #ff6900;
+  position: fixed;
+  display: block;
+  width: 100%;
+  z-index: 1;
 }
 
 footer {
@@ -47,7 +51,7 @@ a {
 }
 
 .main-container {
-  padding: 40px 0px;
+  padding: 100px 0px 40px;
   flex-wrap: wrap;
   gap: 40px 16px;
 }
@@ -85,9 +89,12 @@ a {
   gap: 10px;
 }
 
+.box {
+  width: calc((100% - 32px) / 3);
+}
+
 .image {
-  max-height: 500px;
-  height: 100%;
+  width: 100%;
 }
 
 .item {
