@@ -33,10 +33,6 @@ a {
   padding-right: 14px;
 }
 
-.ib {
-  /* TEMPORANEA */
-  border: 1px dashed rgb(21, 6, 228);
-}
 .container {
   max-width: 1100px;
   min-width: 300px;
@@ -97,9 +93,22 @@ a {
   width: 100%;
 }
 
+.image-b {
+  width: 100%;
+  display: none;
+}
+
 .item {
   position: relative;
   height: 100%;
+}
+
+.item:hover .image {
+  display: none;
+}
+
+.item:hover .image-b {
+  display: inline-block;
 }
 
 .heart {
